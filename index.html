@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>NITRO GENERATOR</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>NITRO GENERATOR</h1>
+    </header>
+    <main>
+      <form>
+        <label for="num-iterations">Number of Codes to Generate:</label><br>
+        <input type="number" id="num-iterations"><br>
+        <button type="button" onclick="generateStrings()">Generate Codes</button>
+	</br>
+	<button type="button" id="download-button">Download Log</button>
+      </form> 
+      <br>
+      <textarea id="output" rows="10" cols="50"></textarea>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+<footer>
+  <a href="https://github.com/coolkysd" target="_blank">
+    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub logo">
+  </a>
+</footer>
+
+</html>
