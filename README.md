@@ -1,2 +1,1 @@
-# coolkysd-nitro
-Simple Nitro Generator
+# coolkysd Nitro Generator
